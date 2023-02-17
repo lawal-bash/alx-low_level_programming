@@ -13,5 +13,6 @@ putchar(letterlower);
 /* print uppercase letters */
 for (letterupper = 'A'; letterupper <= 'Z'; letterupper++)
 putchar(letterupper);
+putchar('\n');
 return (0);
 }
