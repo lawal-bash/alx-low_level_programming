@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-char letterlower;
+char lowercase;
 /* print lowercase letters except q and e */
-for (letterlower = 'a'; letterlower <= 'z'; letterlower++)
+for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 {
 if (lowercase != 'q' && lowercase != 'e')
-putchar(letterlower);
+putchar(lowercase);
 }
 putchar('\n');
 return (0);
