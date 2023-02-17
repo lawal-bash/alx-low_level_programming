@@ -9,7 +9,7 @@ char letterlower;
 /* print lowercase letters except q and e */
 for (letterlower = 'a'; letterlower <= 'z'; letterlower++)
 {
-if (lowercase != q && lowercase != e)
+if (lowercase != 'q' && lowercase != 'e')
 putchar(letterlower);
 }
 putchar('\n');
