@@ -6,7 +6,7 @@
 int main(void)
 {
 char letterlower;
-/* print lowercase letters minus q and e */
+/* print lowercase letters except q and e */
 for (letterlower = 'a'; letterlower <= 'z'; letterlower++)
 {
 if (lowercase != q && lowercase != e)
