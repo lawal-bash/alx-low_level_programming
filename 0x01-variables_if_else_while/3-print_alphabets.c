@@ -10,7 +10,6 @@ char letterupper;
 /* print lowercase letters */
 for (letterlower = 'a'; letterlower <= 'z'; letterlower++)
 putchar(letterlower);
-putchar('\n');
 /* print uppercase letters */
 for (letterupper = 'A'; letterupper <= 'Z'; letterupper++)
 putchar(letterupper);
