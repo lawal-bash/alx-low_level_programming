@@ -8,6 +8,5 @@ int main(void)
 int i;
 i = 98;
 positive_or_negative(i);
-_putchar('\n');
 return (0);
 }
