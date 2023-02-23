@@ -17,7 +17,7 @@ for (row = 1; row <= size; row++)
 {
 for (spaces = size - row; spaces >= 1; spaces--)
 {
-_putchar(' ');
+_putchar('');
 }
 for (hashes = 1; hashes <= row; hashes++)
 {
