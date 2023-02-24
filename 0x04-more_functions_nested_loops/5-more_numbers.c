@@ -2,7 +2,7 @@
 /**
  * more_numbers - to print numbers from 0 - 14 ten times
  */
-void more_numbers(void);
+void more_numbers(void)
 {
 int i, j;
 for (i = 1; i <= 10; i++)
