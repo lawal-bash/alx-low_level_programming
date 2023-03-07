@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _memset - fills memory with constant byte.
  * @b: the address of memory to print
