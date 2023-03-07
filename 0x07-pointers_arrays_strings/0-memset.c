@@ -14,7 +14,7 @@ while (i < n)
 {
 s[i] = b;
 i++;
-printf("\n");
+_putchar("\n");
 }
 return (s);
 }
