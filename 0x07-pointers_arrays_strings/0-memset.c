@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _memset - fills memory with constant byte.
  * @b: the address of memory to print
@@ -15,6 +14,7 @@ while (i < n)
 {
 s[i] = b;
 i++;
+printf("\n");
 }
 return (s);
 }
