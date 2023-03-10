@@ -1,5 +1,4 @@
-/* Filename: lib_mylib.c */
-#include <stdio.h>
+/* Filename: libmy.c */
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
