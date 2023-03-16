@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
 #include "main.h"
 /**
  * malloc_checked - to check allocated memory to terminate with value 98.
