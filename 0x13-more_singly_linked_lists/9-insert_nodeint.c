@@ -22,14 +22,14 @@ for (i = 0; i < idx - 1 && temp != NULL; i++)
 {
 temp = temp->next;
 }
-else if (temp == NULL)
+if (temp == NULL)
 return (NULL);
 }
 new = malloc(sizeof(listint_t));
-else if (new == NULL)
+if (new == NULL)
 return (NULL);
 new->n = n;
-else if (idx == 0)
+if (idx == 0)
 {
 new->next = *head;
 *head = new;
