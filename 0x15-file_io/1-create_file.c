@@ -3,7 +3,7 @@
  * create_file - to creates a function that create a file
  * @filename: this is name of the file to create
  * @text_content: this is the NULL terminal to write to file
- * Return: if the file is null -1 else create file 
+ * Return: if the file is null -1 else create file
  */
 int create_file(const char *filename, char *text_content)
 {
